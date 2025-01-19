@@ -940,7 +940,7 @@ async function main() {
     console.log(`Proxy: ${proxies.length}`);
     process.exit(1);
   }
-  console.log("Script by (https://t.me/D4rkCipherX)".yellow);
+  console.log("Script by (https://t.me/kingelnet)".yellow);
   let maxThreads = settings.MAX_THEADS;
 
   const { endpoint: hasIDAPI, message } = await checkBaseUrl();
@@ -1007,7 +1007,7 @@ errors.push(`Worker for account ${currentIndex} exited with code: ${code}`);
       }
     }
     await sleep(3);
-    console.log("Join (https://t.me/D4rkCipherX)".yellow);
+    console.log("Join (https://t.me/kingelnet)".yellow);
     console.log(`=============Complete all accounts | Wait ${settings.TIME_SLEEP} minutes=============`.magenta);
     await sleep(settings.TIME_SLEEP * 60);
   }
