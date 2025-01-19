@@ -807,7 +807,7 @@ class ZooAPIClient {
   }
 
   async main() {
-    this.log(`Script By (https://www.youtube.com/@D4rkCipherX)`, "warning");
+    this.log(`Script By (https://www.youtube.com/@YOUSSEFSOBHY1)`, "warning");
     try {
       const { endpoint: hasIDAPI, message } = await checkBaseUrl();
       if (!hasIDAPI) return console.log(`Could not find API ID, try again later!`.red);
